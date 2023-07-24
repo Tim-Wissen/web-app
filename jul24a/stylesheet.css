@@ -1,0 +1,28 @@
+body{
+    background: url("background1.png"), lightgray 50% / 100% no-repeat;
+    width: 1920;
+    height: 1080;
+    flex-shrink: 0;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 0%;
+    
+}
+
+head{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 100%;
+        bottom: 100%;
+        z-index: 10;
+}
+
+.vector-lines {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 100%;
+    bottom: 100%;
+    z-index: 10;
+  }

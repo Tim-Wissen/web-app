@@ -1,0 +1,11 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open main.html",
+            "file": "c:\\Users\\Tim Wissen\\Documents\\Arduino\\Projekte\\web-app\\jul24a\\main.html"
+        }
+    ]
+}
