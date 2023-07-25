@@ -17,12 +17,3 @@ head{
         bottom: 100%;
         z-index: 10;
 }
-
-.vector-lines {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 100%;
-    bottom: 100%;
-    z-index: 10;
-  }
