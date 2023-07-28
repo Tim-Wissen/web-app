@@ -1,0 +1,22 @@
+body{
+    background-image: url('background1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.calendar{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%);
+    border: 0;
+    width: 800px;
+    height: 600px;
+    overflow: hidden;
+}
+
+#event-form{
+    position: absolute;
+    top: 25%;
+    left: 12.5%;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author:" content="Tim Wissen">
+        <title>Web-App // Home</title>
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+
+    <body>
+        <iframe class="calendar" id="calendar1" style="border: 0;" scrolling="no"></iframe>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="stylesheet.css">
+
+        <form id="event-form">
+            <label for="event-title">Titel:</label>
+            <input type="text" id="event-title" name="event-title" required><br>
+
+            <label for="event-date">Datum:</label>
+            <input type="date" name="event-date" id="event-date" required><br>
+
+            <label for="event-time">Zeit:</label>
+            <input type="time" name="event-time" id="event-time" required><br>
+
+            <label for="event-description">Beschreibung</label>
+            <textarea id="event-description" name="event-description"></textarea><br>
+
+            <input type="submit" value="Termin hinzufügen">
+        </form>
+
+    </body>
+</html>
